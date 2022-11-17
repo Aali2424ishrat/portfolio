@@ -1,0 +1,37 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: #262626;
+}
+.circle
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border: 2px solid #fff;
+	border-radius: 50%;
+	width: 100px;
+	height: 110px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 80px;
+	overflow: hidden;
+}
+.circle .fa
+{
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	animation: animate 1s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: translateY(50px);
+	}
+
+	
+}
